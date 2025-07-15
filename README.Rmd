@@ -13,15 +13,21 @@ knitr::opts_chunk$set(
 
 # Machine learning based statistical inference in sports analytics
 
-This github repository contains the code for reproducing the results in [1]. The short paper can be viewed [here](https://rbstats.netlify.app/project_files/stat_inf_SA_files/_IWSM25_short_paper/Bajons_IWSM25.pdf).
-
-## Quick Summary
-
-In this project, we...
+This github repository contains the code for reproducing the results in [1]. The short paper can be viewed [here](https://rbstats.netlify.app/project_files/stat_inf_SA_files/_IWSM25_short_paper/Bajons_IWSM25.pdf). 
+The presentation held at the IWSM 2025 conference can be found [here](https://rbstats.netlify.app/project_files/stat_inf_sa_files/_iwsm25_pres/iwsm25_bajons).
 
 
-## Code Information & Reproducibility
+## Code Information & Reproducibility 
 
+To reproduce the results it is recommended (but not necessary) to work within the R project `ml-sports-iwsm.Rproj`. 
+
+### Evaluating shooting skills of players in soccer
+
+To reproduce the results from section 4 of [1] run the file `GCM_tests_RGAX.R` from the `code` folder. It is recommended to run the code with sufficient computing power. The code can be direct used on a high performance computing cluster. After having stored the results, the `vis_RGAX.R` file can be used to create visualization similar to Panel A of Figure 1 from [1].
+
+### Defensive coverage prediction in the NFL
+
+To reproduce the results from section 5 of [1] run the file `GCM_tests_HMM.R` from the `code` folder. After having stored the results, the `vis_HMM.R` file can be used to create visualization similar to Panel B of Figure 1 from [1].
 
 ## References
 
